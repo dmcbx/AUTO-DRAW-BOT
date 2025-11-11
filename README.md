@@ -10,8 +10,8 @@ It's perfect for creating fun time-lapse videos or just watching a robot artist 
 
 (Here's a quick look at the app in action!)
 
-*(You should record a GIF or take a screenshot of your app, upload it to your GitHub repo, and replace the link below)*
-![Auto Drawing Bot Preview GIF](https://github.com/dmcbx/AUTO-DRAW-BOT/blob/main/your-preview-image.png?raw=true)
+<img width="607" height="635" alt="Auto Drawing Bot-000173" src="https://github.com/user-attachments/assets/0e93e06e-6189-497b-88c4-6f401dbba863" />
+
 
 ## ✨ Features
 
