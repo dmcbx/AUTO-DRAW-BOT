@@ -1,127 +1,98 @@
-🎨 Auto Drawing Bot 🎨
-Welcome! 👋 This is a fun little application that automatically draws any image you give it onto your screen. It's perfect for drawing in games, MS Paint, or any digital canvas you can think of.
+# 🎨 Auto Drawing Bot
 
-This bot works by taking your image, simplifying it into different color layers (or just finding its outlines), and then taking control of your mouse to draw it for you, line by line!
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Dmcbx)
 
-🖼️ Preview
-Here's what the app looks like in action!
+Welcome to Auto Drawing Bot! 👋 This fun little tool takes any image you give it, analyzes its colors and shapes, and then automatically draws it in any painting program (like MS Paint, Photoshop, etc.) by controlling your mouse.
 
-(Note: To make this work, you need to take a screenshot or record a GIF of your app. Upload it to a site like Imgur and paste the link here to replace the placeholder.)
+It's perfect for creating fun time-lapse videos or just watching a robot artist at work! 🤖
 
-✨ Features
-🖌️ Multiple Drawing Modes:
+## 🖼️ Preview
 
-Full Mode: Simplifies the image into colored layers and draws it.
+(Here's a quick look at the app in action!)
 
-Contour Mode: Finds the edges/outlines of your image and draws just the sketch.
+*(You should record a GIF or take a screenshot of your app, upload it to your GitHub repo, and replace the link below)*
+![Auto Drawing Bot Preview GIF](https://github.com/dmcbx/AUTO-DRAW-BOT/blob/main/your-preview-image.png?raw=true)
 
-New Mode: The best of both! Outlines and fills the colored areas.
+## ✨ Features
 
-💫 Animated UI: A beautiful, animated, multi-color gradient background.
+* **Multiple Drawing Modes:**
+    * 🎨 **Full Mode:** Simplifies the image into colored layers and draws it line-by-line.
+    * ✍️ **Contour Mode:** Detects the edges and sketches the outline of the image.
+    * 🖌️ **New Mode (Color-Aware):** Intelligently draws the outlines *and* fills for each color.
+* **Total Control:** Adjust the number of colors, drawing speed, and level of detail.
+* **Cool Interface:** A custom, modern UI with a moving animated gradient background.
+* **Easy to Use:** Simple, step-by-step interface.
 
-⚙️ Customizable Settings: Control the drawing speed, number of colors, and level of detail.
+## 🚀 Getting Started
 
-🛑 Full Stop Control: Easily pause or stop the bot at any time with hotkeys.
+You have two ways to get the app:
 
-🚀 How to Get It
-You have two ways to get the bot.
+### 1. For Regular Users (Easy Way) ✅
 
-Method 1: The Easy Way (Recommended) 👍
-This is for most users. Just download the installer and run it!
+Just download the latest setup file and install it.
 
-Go to the Releases page of this project.
+1.  Go to the **[Releases Page](https://github.com/dmcbx/AUTO-DRAW-BOT/releases)**.
+2.  Download the `AutoDrawingBot-Setup-v1.0.exe` file.
+3.  Run the installer. It will install the app, add it to your Start Menu, and create a Desktop shortcut.
+4.  The installer will also automatically install any required Microsoft VC++ components for you.
 
-Download the latest AutoDrawingBot-Setup-vX.X.exe file.
+### 2. For Developers (Running from Source) 🧑‍💻
 
-Run the installer. It will set up everything you need, including the required Microsoft files and a Desktop shortcut.
+If you want to run the Python script directly or make your own changes:
 
-That's it! 🎉 Find the "Auto Drawing Bot" on your desktop and run it.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/dmcbx/AUTO-DRAW-BOT.git](https://github.com/dmcbx/AUTO-DRAW-BOT.git)
+    cd AUTO-DRAW-BOT
+    ```
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+3.  **Install the required libraries:**
+    ```bash
+    pip install pyqt5 pyautogui opencv-python numpy mouse keyboard pillow
+    ```
+4.  **Run the app:**
+    ```bash
+    python main.py
+    ```
 
-Method 2: The Developer Way (from Source) 🧑‍💻
-If you are a developer and want to run the raw Python script:
+## 📖 How to Use
 
-Install Git: Make sure you have Git installed.
+1.  Open your drawing program (like MS Paint, Krita, etc.) with a blank canvas.
+2.  Run the **Auto Drawing Bot**.
+3.  Click **"📂 1. Load Image"** and choose the picture you want to draw.
+4.  Click **"⛶ 2. Select Area"**. The app will hide. Click and drag your mouse to draw a box around your blank canvas area.
+5.  Choose your settings:
+    * **Mode:** `Full`, `Contour`, or `New`.
+    * **Colors:** How many colors to simplify the image to.
+    * **Speed:** How fast the mouse moves (0.01 is fast, 0.1 is slow).
+6.  Click **"🚀 START"**.
+7.  **HANDS OFF!** 👐 Do not touch your mouse or keyboard. The bot is now drawing.
 
-Install Python: Make sure you have Python 3.11+ installed (make sure to check "Add Python to PATH" during installation).
+### 🛑 HOW TO STOP THE BOT
 
-Clone the repository: Open your cmd or terminal and type:
+**To stop the bot at ANY time, just press the `Esc` key on your keyboard!**
 
-Bash
+## ⚠️ Disclaimer & Warning
 
-git clone https://github.com/dmcbx/AUTO-DRAW-BOT.git
-cd AUTO-DRAW-BOT
-Install libraries: This app needs a few special libraries.
+This is a bot. It takes control of your mouse and keyboard to draw.
 
-First, create a file named requirements.txt in the AUTO-DRAW-BOT folder.
+* **DO NOT** leave this bot running unattended.
+* **SAVE YOUR WORK** in all other programs before running this.
+* The creator (Dmcbx) is **NOT responsible** for any lost work, messed-up drawings, or any other issues that happen while this bot is running.
 
-Copy and paste the following lines into that new file:
+**You are using this software entirely at your own risk.**
 
-Plaintext
+## ❤️ Support & Contact
 
-PyQt5
-opencv-python
-numpy
-pyautogui
-keyboard
-mouse
-Pillow
-Now, install them all by running this command in your terminal:
+Found a bug or have a cool idea? Let me know!
 
-Bash
+* **Facebook:** [Find me on Facebook](https://www.facebook.com/lucy.dragneel.756412)
+* **GitHub:** [Open an Issue](https://github.com/dmcbx/AUTO-DRAW-BOT/issues)
 
-pip install -r requirements.txt
-Run the app:
+If you like this tool, please consider supporting its development! ☕
 
-Bash
-
-python main.py
-🎮 How to Use the Bot
-Using the bot is super easy:
-
-Open your canvas: Open MS Paint, a drawing game, or whatever you want to draw on. Make sure it's visible.
-
-Run Auto Drawing Bot: Start the app (it stays on top of other windows).
-
-📂 1. Load Image: Click this to load the picture you want to draw.
-
-⛶ 2. Select Area: Click this. Your screen will dim. Click and drag a box over the exact area you want the drawing to appear (your canvas).
-
-⚙️ Choose Settings:
-
-Mode: Full, Contour, or New.
-
-Colors: (For Full mode) How many colors to simplify to (e.g., 20).
-
-Speed: How fast the mouse moves. 0.01 is fast, 0.001 is very precise.
-
-🚀 START: Click the big START button!
-
-🚨 HANDS OFF! Do not touch your mouse or keyboard. The bot is now in control.
-
-STOPPING:
-
-To PAUSE the drawing, press the P key. (Click Continue in the app to resume).
-
-To STOP the drawing completely, press the Esc key.
-
-⚠️ Disclaimer ⚠️
-This is a bot that takes control of your mouse and keyboard. It's meant for fun and creative purposes.
-
-I (the author, Azouz Zohir) am not responsible for anything you do with this bot. Use it entirely at your own risk.
-
-Using this in online games or on platforms where it's not allowed could get your account banned. You have been warned!
-
-Always be ready to stop the bot with the Esc key.
-
-❤️ Support & Connect
-Hey, I'm Azouz Zohir! I had a lot of fun building this.
-
-If you liked this project, found a bug, or just want to say hi, you can find me here:
-
-Facebook: Find me on Facebook!
-
-GitHub: Follow me on GitHub
-
-If you really loved it and want to support my work, you can buy me a coffee! ☕
-
-<a href="https://ko-fi.com/Dmcbx"> <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee on Ko-fi"> </a>
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Dmcbx)
