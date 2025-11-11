@@ -2,9 +2,9 @@
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Dmcbx)
 
-Welcome to Auto Drawing Bot! 👋 This fun little tool takes any image you give it, analyzes its colors and shapes, and then automatically draws it in any painting program (like MS Paint, Photoshop, etc.) by controlling your mouse.
+Welcome to Auto Drawing Bot! 👋 This fun little tool takes any image you give it, analyzes its colors and shapes, and then automatically draws it in any painting program (like MS Paint, Photoshop, instagram, skribble, gartic phone, etc.) by controlling your mouse.
 
-It's perfect for creating fun time-lapse videos or just watching a robot artist at work! 🤖
+It's perfect for creating fun time-lapse videos or impressing your friends! 🤖
 
 ## 🖼️ Preview
 
