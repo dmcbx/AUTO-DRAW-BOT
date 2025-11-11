@@ -34,7 +34,6 @@ Just download the latest setup file and install it.
 1.  Go to the **[Releases Page](https://github.com/dmcbx/AUTO-DRAW-BOT/releases)**.
 2.  Download the `AutoDrawingBot-Setup-v1.0.exe` file.
 3.  Run the installer. It will install the app, add it to your Start Menu, and create a Desktop shortcut.
-4.  The installer will also automatically install any required Microsoft VC++ components for you.
 
 ### 2. For Developers (Running from Source) 🧑‍💻
 
